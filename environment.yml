@@ -1,0 +1,13 @@
+name: demo-db-input
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - fastapi>=0.100.0
+    - uvicorn[standard]>=0.23.0
+    - python-multipart>=0.0.6
+    - aiosqlite>=0.19.0
+    - pytest>=7.4.0
